@@ -6,13 +6,17 @@
  }
 body {
 background-image: url(Images/JanVanGoyen.jpg);
+background-position: center center; /* Background image doesn’t tile */
+background-repeat: no-repeat; /* Background image is fixed in the viewport so that it doesn’t move when the content’s height is greater than the image’s height */
+background-attachment: fixed; /* This is what makes the background image rescale based on the container’s size */
 background-size: cover;
 font-family: "Roboto Mono";
 }
 .flex-container {
    display: flex;
    align-items: stretch;
-   margin-left: 200px;
+   margin-left: 250px;
+   margin-right: 20px;
 }
 .navBar {
 height: 100%;
@@ -22,12 +26,11 @@ z-index: 1;
 top: 0;
 left: 0;
 background-color: rgba(73, 39, 39, 0.64);
-padding-top:20px;
-padding-left: 20px;
+padding: 20px;
+text-align: center;
 }
 .nav-links {
+   margin-top: 20px;
    line-height: 40px;
    color: white;
-}
-.logo {
 }
