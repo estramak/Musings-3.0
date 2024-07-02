@@ -1,9 +1,13 @@
+/*OVERALL DESIGN FOR GENERAL ASPECTS */
 .roboto-mono-font {
    font-family: "Roboto Mono", monospace;
    font-optical-sizing: auto;
    font-weight: auto;
    font-style: normal;
  }
+li {
+   list-style-type: circle;
+}
 body {
 background-image: url(Images/JanVanGoyen.jpg);
 background-position: center center; /* Background image doesn’t tile */
@@ -12,12 +16,31 @@ background-attachment: fixed; /* This is what makes the background image rescale
 background-size: cover;
 font-family: "Roboto Mono";
 }
-.flex-container {
-   display: flex;
-   align-items: stretch;
-   margin-left: 250px;
-   margin-right: 20px;
+h3 {
+   background-color: rgb(73, 39, 39);
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
 }
+
+/*SCROLLBAR ANIMATION DESIGN*/
+.scrollbar {
+   margin-left: 270px;
+   margin-right: 40px;
+}
+
+
+/*MAIN CONTAINER DESIGN */
+.master {
+   margin-left: 240px;
+   margin-right: 20px;
+   padding-inline:20px;
+   background-color:  rgba(73, 39, 39, 0.364);
+   padding: 20px;
+   color: white;
+}
+
+/* NAVBAR DESIGN */
 .navBar {
 height: 100%;
 width: 200px;
@@ -25,12 +48,79 @@ position: fixed;
 z-index: 1;
 top: 0;
 left: 0;
-background-color: rgba(73, 39, 39, 0.64);
-padding: 20px;
-text-align: center;
+background-color: rgb(73, 39, 39);
+padding-top: 20px;
 }
+
 .nav-links {
-   margin-top: 20px;
-   line-height: 40px;
+   margin-top: 40px;
    color: white;
+}
+.nav-links li {
+   padding-bottom: 5px;
+   padding-left: 25px;
+   padding-top: 5px;
+}
+.nav-links li a {
+   color: white;
+   text-decoration: none;
+   margin: 5px;
+}
+
+.nav-links li:hover {
+   background-color: rgba(255, 217, 0, 0.212);
+   margin-left: 5px;
+ }
+
+/*CONTENT DESIGN */
+.title {
+   justify-content: center;
+   margin-left: 250px;
+   margin-right: 20px;
+   margin-bottom: -40px;
+}
+.intro {
+   margin-bottom: 15px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+.hr.dotted {
+      border-top: 3px dotted #bbb;
+}
+.div-img {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+/*FLEXBOX AND SECTION DESIGN */
+.flex1 {
+   display: flex;
+   margin-top: 20px;
+}
+.Updates {
+   order: 2;
+   border-style: dotted;
+   padding: 10px;
+}
+.testing {
+   margin-right: 20px;
+   order: 1
+}
+
+/*UPDATE SECTION DESIGN*/
+.upText {
+   text-align: center;
+}
+.upScroll {
+   order: 2;
+   justify-content: flex-end;
+   width: 300px;
+   height: 250px;
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+article {
+   border-style: inset;
+   padding: 10px;
 }

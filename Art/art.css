@@ -1,0 +1,52 @@
+/*OVERALL DESIGN FOR GENERAL ASPECTS */
+.roboto-mono-font {
+   font-family: "Roboto Mono", monospace;
+   font-optical-sizing: auto;
+   font-weight: auto;
+   font-style: normal;
+ }
+body {
+   background-image: url(Images/tan-background-8bnufdrrlswhogdf-241654070.jpg);
+   background-position: center center; /* Background image doesn’t tile */
+   background-repeat: no-repeat; /* Background image is fixed in the viewport so that it doesn’t move when the content’s height is greater than the image’s height */
+   background-attachment: fixed; /* This is what makes the background image rescale based on the container’s size */
+   background-size: cover;
+   font-family: "Roboto Mono";
+}
+ /*BREADCRUMB DESIGN*/
+ .breadcrumb {
+   margin-top: 0px;
+   padding-top: 0px;
+ }
+ /* Style the list */
+ul.breadcrumb {
+   padding: 10px 16px;
+   list-style: none;
+   background-color: rgba(73, 39, 39, 0.628);
+ }
+ 
+ /* Display list items side by side */
+ ul.breadcrumb li {
+   display: inline;
+   font-size: 15px;
+   color: white;
+ }
+ 
+ /* Add a slash symbol (/) before/behind each list item */
+ ul.breadcrumb li+li:before {
+   padding: 8px;
+   color: rgb(255, 241, 241);
+   content: "•";
+ }
+ 
+ /* Add a color to all links inside the list */
+ ul.breadcrumb li a {
+   color: #c3d4e3;
+   text-decoration: none;
+ }
+ 
+ /* Add a color on mouse-over */
+ ul.breadcrumb li a:hover {
+   color: #ffffff;
+   text-shadow: black;
+ }
