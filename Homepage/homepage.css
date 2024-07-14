@@ -15,12 +15,16 @@ background-repeat: no-repeat; /* Background image is fixed in the viewport so th
 background-attachment: fixed; /* This is what makes the background image rescale based on the container’s size */
 background-size: cover;
 font-family: "Roboto Mono";
+margin: 0%;
+padding: 0%;
+cursor: default;
 }
 h3 {
    background-color: rgb(73, 39, 39);
    padding-top: 10px;
    padding-bottom: 10px;
    padding-left: 10px;
+   margin-top: 5px;
 }
 
 /*SCROLLBAR ANIMATION DESIGN*/
@@ -55,21 +59,24 @@ padding-top: 20px;
 .nav-links {
    margin-top: 40px;
    color: white;
-}
-.nav-links li {
-   padding-bottom: 5px;
-   padding-left: 25px;
+   position: relative;
+   padding-bottom: 10px;
    padding-top: 5px;
-}
-.nav-links li a {
-   color: white;
+   line-height: 30px;
+   text-align: start;
    text-decoration: none;
-   margin: 5px;
 }
 
-.nav-links li:hover {
-   background-color: rgba(255, 217, 0, 0.212);
-   margin-left: 5px;
+.nav-links a {
+   text-decoration: none;
+   display: block;
+   margin-bottom: -30px;
+   padding-left: 20px;
+ }
+
+ .nav-links a:hover {
+   background-color: #cc550089;
+   padding-left: 25px;
  }
 
 /*CONTENT DESIGN */
@@ -99,18 +106,30 @@ padding-top: 20px;
    margin-top: 20px;
 }
 .Updates {
-   order: 2;
+   order: 3;
+   width: 25%;
    border-style: dotted;
    padding: 10px;
 }
-.testing {
+.Arthl {
    margin-right: 20px;
+   width: 25%;
    order: 1
+}
+
+.HLheading {
+   text-align: center;
+}
+.testing {
+   order: 2;
+   margin-left: 10px;
+   margin-right: 10px;
 }
 
 /*UPDATE SECTION DESIGN*/
 .upText {
    text-align: center;
+   margin-bottom: 10px;
 }
 .upScroll {
    order: 2;
