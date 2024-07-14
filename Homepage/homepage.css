@@ -108,6 +108,7 @@ padding-top: 20px;
 .Updates {
    order: 3;
    width: 25%;
+   height: fit-content;
    border-style: dotted;
    padding: 10px;
 }
@@ -120,10 +121,18 @@ padding-top: 20px;
 .HLheading {
    text-align: center;
 }
-.testing {
+.moreIntro {
    order: 2;
+   margin-top: -20px;
    margin-left: 10px;
    margin-right: 10px;
+   text-align: center;
+}
+
+.marginilian {
+   text-decoration-style: dotted;
+   color: white;
+   text-shadow: gold;
 }
 
 /*UPDATE SECTION DESIGN*/
@@ -133,9 +142,8 @@ padding-top: 20px;
 }
 .upScroll {
    order: 2;
-   justify-content: flex-end;
    width: 300px;
-   height: 250px;
+   height: 300px;
    overflow-x: hidden;
    overflow-y: auto;
 }
