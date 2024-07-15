@@ -64,8 +64,9 @@ a {
 }
 
 .pageintro {
-  margin-right: 50px;
+  
   margin-left: 20px;
+  max-width: 70%;
 }
 
 .quote {
@@ -74,6 +75,7 @@ a {
   border-radius: 10%;
   margin-top: 10px;
   padding-left: 20px;
+  max-width: 25%;
 }
  /*RESPONSIVE IMAGE GRID LAYOUT*/
  .row {
@@ -97,30 +99,6 @@ a {
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-
-/*IMAGE BLUR ON HOVER*/
-.container img:hover {
-  -webkit-filter: blur(5px);
-  filter: blur(5px);
-  transition: .5s ease;
-}
-
 /*IMAGE OVERLAY TEXT*/
 .container {
   position: relative;
@@ -128,6 +106,10 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.container img {
+  width: 100%;
 }
 
 .container a:hover {
@@ -159,4 +141,27 @@ a {
   z-index: 2000;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*IMAGE BLUR ON HOVER*/
+.container img:hover {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  transition: .5s ease;
 }

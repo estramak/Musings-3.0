@@ -87,12 +87,10 @@ padding-top: 20px;
    margin-bottom: -40px;
 }
 .intro {
-   margin-bottom: 15px;
    text-align: center;
-   margin-bottom: 20px;
-}
-.hr.dotted {
-      border-top: 3px dotted #bbb;
+   margin-top: -20px;
+   margin-left: 50px;
+   margin-right: 50px;
 }
 .div-img {
    display: flex;
@@ -105,14 +103,22 @@ padding-top: 20px;
    display: flex;
    margin-top: 20px;
 }
-.Updates {
+
+.leftCol {
    order: 3;
    width: 25%;
    height: fit-content;
    border-style: dotted;
    padding: 10px;
+   margin-left: 30px;
 }
-.Arthl {
+
+.center {
+   order: 2;
+   margin-top: -20px;
+}
+
+.rightCol {
    margin-right: 20px;
    width: 25%;
    order: 1
@@ -121,11 +127,8 @@ padding-top: 20px;
 .HLheading {
    text-align: center;
 }
+
 .moreIntro {
-   order: 2;
-   margin-top: -20px;
-   margin-left: 10px;
-   margin-right: 10px;
    text-align: center;
 }
 
@@ -143,7 +146,7 @@ padding-top: 20px;
 .upScroll {
    order: 2;
    width: 300px;
-   height: 300px;
+   height: 450px;
    overflow-x: hidden;
    overflow-y: auto;
 }
