@@ -67,6 +67,7 @@ a {
   
   margin-left: 20px;
   max-width: 70%;
+  padding-right: 20px;
 }
 
 .quote {
@@ -132,13 +133,16 @@ a {
   opacity: 1
 }
 
-.text {
+.text a {
   color: white;
-  position: relative;
-  text-align: center;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
   top: 50%;
   left: 50%;
-  z-index: 2000;
+  display:flex;
+  height: 100%;
+  width: 100%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }

@@ -17,6 +17,7 @@ background-size: cover;
 font-family: "Roboto Mono";
 margin: 0%;
 padding: 0%;
+margin-bottom: 20px;
 cursor: default;
 }
 h3 {
@@ -92,6 +93,7 @@ padding-top: 20px;
    margin-left: 50px;
    margin-right: 50px;
 }
+
 .div-img {
    display: flex;
    justify-content: center;
