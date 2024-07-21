@@ -1,0 +1,100 @@
+/*OVERALL DESIGN FOR GENERAL ASPECTS */
+.roboto-mono-font {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+ }
+
+body {
+  margin: 0px;
+  padding:0%;
+  background-color: #d6b589;
+  cursor: default;
+ }
+
+ h3 {
+  padding: 10px;
+ }
+
+ /*BREADCRUMB DESIGN*/
+ .navBar {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-top: 0px;
+  padding:1px;
+  list-style: none;
+  background-color: rgba(73, 39, 39, 0.628);
+ }
+
+  /* Display list items side by side */
+  ul.breadcrumb li {
+  display: inline;
+  font-size: 15px;
+  color: white;
+ }
+ 
+ /* Add a slash symbol (/) before/behind each list item */
+ ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: rgb(255, 241, 241);
+  content: "•";
+ }
+ 
+ /* Add a color to all links inside the list */
+ ul.breadcrumb li a {
+  color: #c3d4e3;
+  text-decoration: none;
+ }
+ 
+ /* Add a color on mouse-over */
+ ul.breadcrumb li a:hover {
+   color: #ffffff;
+   text-shadow: black;
+ }
+
+ .heading {
+  position: relative;
+  text-align: center;
+ }
+
+.title {
+  position: absolute;
+  min-width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+ .img-left {
+  float: left;
+  margin-right: 20px;
+  width: 35%;
+ }
+
+ .img-right {
+  float: right;
+  margin-left: 20px;
+  width: 35%;
+ }
+
+ .content {
+  width: 75%;
+  margin: 0 auto;
+ }
+
+ .subheading {
+  text-align: center;
+  color: white;
+  background-color: rgb(73, 39, 39);
+  border-radius: 50px;
+ }
+
+ section {
+  text-align: justify;
+  font-size: 23px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+ }
