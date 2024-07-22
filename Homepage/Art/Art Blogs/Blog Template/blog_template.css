@@ -11,10 +11,16 @@ body {
   padding:0%;
   background-color: #d6b589;
   cursor: default;
+  font-family: "Roboto Mono";
  }
 
  h3 {
   padding: 10px;
+ }
+
+ a {
+  color: white;
+  cursor: url('file:///C:/Users/proja/OneDrive/Documents/Coding/Neocities/Musings%203.0/Homepage/Art/Images/icons8-cursor.svg'), auto;
  }
 
  /*BREADCRUMB DESIGN*/

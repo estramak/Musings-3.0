@@ -80,6 +80,13 @@ padding-top: 20px;
    padding-left: 25px;
  }
 
+ .buttons {
+   position: absolute;
+   bottom: 0;
+   margin-bottom: 100px;
+   margin-left: 10px;
+ }
+
 /*CONTENT DESIGN */
 .title {
    justify-content: center;

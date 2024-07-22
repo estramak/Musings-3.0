@@ -9,13 +9,13 @@ body {
   margin: 0px;
   padding:0%;
   background-color: #d6b589;
-   font-family: "Roboto Mono";
-   cursor: default;
+  font-family: "Roboto Mono";
+  cursor: default;
 }
 
 a {
   color: white;
-  cursor: url('Images/icons8-cursor.svg'), auto;
+  cursor: url('Immediate Pics/icons8-cursor.svg'), auto;
 }
  /*BREADCRUMB DESIGN*/
  .navBar {
@@ -110,7 +110,7 @@ a {
 }
 
 .container a:hover {
-  cursor: url('Images/icons8-cursor.svg'), auto;
+  cursor: url('Immediate Pics/icons8-cursor.svg'), auto;
 }
 
 .overlay {

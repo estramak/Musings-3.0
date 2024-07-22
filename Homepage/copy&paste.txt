@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--links css stylesheet-->
+   <link rel="stylesheet" href="">
+   <!--tab icon-->
+   <link rel="icon" href="Immediate Pics/file.png">
+   <title>Neocites & Websites</title>
+   <!--imports font-->
+   <style class="roboto-mono-font">
+      @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+  </style>
+</head>
+<body>
+   <!--Breadcrumb code for subpages-->
+   <div class="navBar">
+      <ul class="breadcrumb">
+         <!--links to previous pages--!>
+         <li><a href=""></a></li>
+         <li></li>
+      </ul>
+   </div>
+   
+</body>
+</html>
+
+/* font style */
+/*OVERALL DESIGN FOR GENERAL ASPECTS */
+.roboto-mono-font {
+   font-family: "Roboto Mono", monospace;
+   font-optical-sizing: auto;
+   font-weight: auto;
+   font-style: normal;
+ }
+
+
+ body {
+  margin: 0px;
+  padding:0%;
+  background-color: #d6b589;
+  font-family: "Roboto Mono";
+  cursor: default;
+}
+
+a {
+  color: white;
+  cursor: url('Immediate Pics/icons8-cursor.svg'), auto;
+}
+ /*BREADCRUMB DESIGN*/
+ .navBar {
+   margin-top: 0px;
+   padding-top: 0px;
+   padding:1px;
+   list-style: none;
+   background-color: rgba(73, 39, 39, 0.628);
+ }
+ 
+ /* Display list items side by side */
+ ul.breadcrumb li {
+   display: inline;
+   font-size: 15px;
+   color: white;
+ }
+ 
+ /* Add a slash symbol (/) before/behind each list item */
+ ul.breadcrumb li+li:before {
+   padding: 8px;
+   color: rgb(255, 241, 241);
+   content: "•";
+ }
+ 
+ /* Add a color to all links inside the list */
+ ul.breadcrumb li a {
+   color: #c3d4e3;
+   text-decoration: none;
+ }
+ 
+ /* Add a color on mouse-over */
+ ul.breadcrumb li a:hover {
+   color: #ffffff;
+   text-shadow: black;
+ }
