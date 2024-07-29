@@ -18,7 +18,17 @@
 
 a {
    color: white;
-   cursor: url('Immediate Pics/icons8-cursor.svg'), auto;
+   cursor: url(ImmediatePics/icons8-cursor-48.png) 15 10, auto
+   
+
+}
+
+h1 {
+   text-align: center;
+}
+
+h3 {
+  padding-top: 5px;
 }
  /*BREADCRUMB DESIGN*/
  .navBar {
@@ -53,4 +63,75 @@ a {
  ul.breadcrumb li a:hover {
    color: #ffffff;
    text-shadow: black;
+ }
+
+ /* CONTENT */
+.content {
+   margin-top: 30px;
+   display: flex;
+   width: 100%;
+   flex-wrap: wrap;
+   margin-left: auto;
+}
+
+ .Col1 {
+   flex: content;
+   justify-content: center;
+   margin-left: 30px;
+ }
+
+ .heading {
+   color: white;
+   font-size: larger;
+   text-align: center;
+   margin-top: -25px;
+   margin-left: -20px;
+   padding-bottom: 5px;
+   background-image: linear-gradient(#cc5500, #492727);
+ }
+
+ .link-list {
+  background-color: #492727;
+  margin-bottom: 40px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  color: white;
+  font-size: large;
+ }
+
+ dt {
+  padding-top: 5px;
+ }
+
+ dl {
+  line-height: 30px;
+ }
+
+.Col2 {
+   margin-left: 20px;
+   margin-right: 10px;
+   flex: content;
+   max-width: 28%;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.buttons a {
+   text-decoration: none;
+}
+
+.buttons img {
+  padding: 5px;
+}
+
+.WOlinks {
+  padding-right: 20px;
+}
+
+.WOlinks li::marker {
+   color: #492727;
  }
